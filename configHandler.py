@@ -10,7 +10,7 @@ if ('RUNNING_SERVERLESS' in os.environ and os.environ['RUNNING_SERVERLESS'] == '
                 "color":os.getenv("VXTWITTER_COLOR",""), 
                 "appname": os.getenv("VXTWITTER_APP_NAME","vxTwitter"), 
                 "repo": os.getenv("VXTWITTER_REPO","https://github.com/dylanpdx/BetterTwitFix"), 
-                "url": os.getenv("VXTWITTER_URL","https://vxtwitter.com"),
+                "url": os.getenv("VXTWITTER_URL","https://faggottwitter.com"),
                 "combination_method": os.getenv("VXTWITTER_COMBINATION_METHOD","local"), # can either be 'local' or a URL to a server handling requests in the same format
                 "gifConvertAPI":os.getenv("VXTWITTER_GIF_CONVERT_API",""),
                 "workaroundTokens":os.getenv("VXTWITTER_WORKAROUND_TOKENS",None)
@@ -28,7 +28,7 @@ else:
                     "color":"#43B581", 
                     "appname": "vxTwitter", 
                     "repo": "https://github.com/dylanpdx/BetterTwitFix", 
-                    "url": "https://vxtwitter.com",
+                    "url": "https://faggottwitter.com",
                     "combination_method": "local", # can either be 'local' or a URL to a server handling requests in the same format
                     "gifConvertAPI":"",
                     "workaroundTokens":None
